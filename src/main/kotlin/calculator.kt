@@ -15,8 +15,18 @@ fun multiply(): Double {
     print("Enter the second number: ")
     var num2: Double = readLine()!!.toDouble()
 
-    var divide = num1 * num2
-    return divide
+    var multipli = num1 * num2
+    return multipli
+}
+fun subtract(): Double {
+    print("Enter Num1: ")
+    var numa: Double = readLine()!!.toDouble()
+
+    print("Enter Num2: ")
+    var numb: Double = readLine()!!.toDouble()
+
+    var sub = numa - numb
+    return sub
 }
 
 fun main(args: Array<String>) {
@@ -24,4 +34,6 @@ fun main(args: Array<String>) {
     println("Result of the division: $result")
     val mul = multiply()
     println("Result of the division: $mul")
+    val sub = subtract()
+    println("Result of the division: $sub")
 }
