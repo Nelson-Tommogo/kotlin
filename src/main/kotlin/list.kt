@@ -1,5 +1,5 @@
 fun main() {
-    val numbersList: List<Int> = listOf(1, 2, 3, 4, 5)
+    val numbersList: List<Int> = listOf(1, 2, 3, 4,)
     println("Immutable List: $numbersList")
 
     val uniqueNumbersSet: Set<Int> = setOf(1, 2, 3, 4, 5)
