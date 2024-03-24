@@ -10,6 +10,17 @@ fun justry() {
     for (town in listOftowns) {
         println(town)
     }
+println("Enter the value of ab")
+    var ab = readln()
+    println("Enter the Value of bc")
+    var bc = readln()
+    val cd =(ab+bc)
+    if (cd> 355.toString()){
+        println("That's very bad")
+
+    }
+    else
+        println("Redo it")
 }
 
 fun main() {
